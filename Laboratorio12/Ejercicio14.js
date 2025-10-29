@@ -11,8 +11,8 @@ let numero2 = parseFloat(prompt("Ingrese el segundo número:"));
 
 const resultados = Operaciones(numero1, numero2);
 
-console.log("Resultados:");
-console.log("Suma:", resultados.suma());
-console.log("Resta:", resultados.resta());
-console.log("Multiplicación:", resultados.multiplicacion());
-console.log("División:", resultados.division());
+console.log("Resultados de: "+ numero1 + " y " + numero2);
+console.log("Suma: "+ resultados.suma());
+console.log("Resta: "+ resultados.resta());
+console.log("Multiplicación: "+ resultados.multiplicacion());
+console.log("División: "+ resultados.division().toFixed(2));
