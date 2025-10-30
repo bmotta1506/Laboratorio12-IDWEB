@@ -17,3 +17,4 @@ const sumar = acumulador(valorInicial);
 
 console.log("Valor inicial del acumulador: " + valorInicial);
 sumar();
+sumar();
